@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web - Estructura Pizarra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav id="inicio">
+            <div class="logo">Mi Sitio</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Quiénes somos</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bienvenidos</h1>
+            <p>Tu visión, plasmada en la web.</p>
+        </section>
+
+        <section id="nosotros" class="content-section">
+            <h2>Quiénes somos</h2>
+            <p>Somos un equipo dedicado a convertir ideas en realidades digitales, siguiendo paso a paso los esquemas de nuestros clientes.</p>
+        </section>
+
+        <section id="catalogo" class="content-section">
+            <h2>Nuestro Catálogo</h2>
+            <div class="grid-catalogo">
+                <div class="card">
+                    <div class="card-img"></div>
+                    <h3>Producto 1</h3>
+                    <p>Descripción detallada del servicio o producto.</p>
+                </div>
+                <div class="card">
+                    <div class="card-img"></div>
+                    <h3>Producto 2</h3>
+                    <p>Descripción detallada del servicio o producto.</p>
+                </div>
+                <div class="card">
+                    <div class="card-img"></div>
+                    <h3>Producto 3</h3>
+                    <p>Descripción detallada del servicio o producto.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="content-section">
+            <h2>Contacto</h2>
+            <div class="contacto-wrapper">
+                <div class="formulario">
+                    <h3>Envíanos un mensaje</h3>
+                    <form>
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Mensaje" rows="5"></textarea>
+                        <button type="submit">Enviar Formulario</button>
+                    </form>
+                </div>
+
+                <div class="info-contacto">
+                    <div class="datos">
+                        <h3>Nuestros Datos</h3>
+                        <p><i class="fas fa-phone"></i> +123 456 789</p>
+                        <p><i class="fas fa-envelope"></i> info@misitio.com</p>
+                    </div>
+                    <div class="mapa">
+                        <p>Mapa</p>
+                        <div class="mapa-placeholder">Ubicación en el mapa</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web - Basado en tu esquema.</p>
+    </footer>
+
+</body>
+</html>
