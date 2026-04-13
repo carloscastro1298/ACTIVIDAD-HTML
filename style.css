@@ -1,10 +1,12 @@
 :root {
-    --color-principal: #ff0000;
+    --color-principal: #2200ff;
     --color-acento: #ff0000;
     --color-fondo: #ffffff;
     --color-texto: #000000;
 }
-
+* {
+    margin: 0;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -60,13 +62,18 @@ nav {
 }
 
 .hero {
-    height: 40vh;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ff3f3f;
-    margin-top: 60px;
+    text-align: center;
+    overflow: hidden; 
+}
+.hero-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
 }
 
 h2 {
@@ -150,11 +157,11 @@ button {
 }
 
 footer {
-    text-align: center;
+    text-align:center;
     padding: 20px;
     background: #1a1a1a;
     color: white;
-    margin-top: 50px;
+    margin-top: 430px;
 }
 
 @media (max-width: 768px) {
@@ -165,4 +172,10 @@ footer {
         width: 90%;
         padding: 1rem 5%;
     }
+}
+
+.volver{
+    display: flex;
+    justify-content: center;
+    padding: auto;
 }
