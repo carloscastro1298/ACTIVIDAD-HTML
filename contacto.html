@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto - Streaming Services</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-        <section id="contacto" class="content-section">
-            <h2>Contacto</h2>
-            <div class="contacto-wrapper">
-                <div class="formulario">
-                    <h3>Envíanos un mensaje</h3>
-                    <form>
-                        <input type="text" placeholder="Nombre" required>
-                        <input type="email" placeholder="Email" required>
-                        <textarea placeholder="Mensaje" rows="5"></textarea>
-                        <button type="submit">Enviar Formulario</button>
-                    </form>
-                </div>
-
-                <div class="info-contacto">
-                    <div class="datos">
-                        <h3>Nuestros Datos</h3>
-                        <p><i class="fas fa-phone"></i> +57 322 111 3331</p>
-                        <p><i class="fas fa-envelope"></i> streamingaccounts@gmail.com</p>
-                    </div>
-                    <div class="mapa">
-                        <p>Mapa</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.666384054584!2d-74.78323822409985!3d10.988534555243751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0025832995%3A0x6ee5ef55547f7da6!2sRiwi!5e0!3m2!1ses!2sco!4v1776102632850!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+    <section class="contacto-page">
+        <h1>Contacto</h1>
+        
+        <div class="contacto-container">
+            <div class="formulario-card">
+                <h3>Envíanos un mensaje</h3>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Tu Nombre" required>
+                    <input type="email" placeholder="Tu Correo Electrónico" required>
+                    <textarea placeholder="¿Cómo podemos ayudarte?" rows="5" required></textarea>
+                    <button type="submit" class="btn-enviar">ENVIAR AHORA</button>
+                </form>
             </div>
-        </section>
-                <div class="volver">
-            <a href="index.html"><i class="fas fa-arrow-left"></i>
-        <button>VOLVER</button>
-        </div> 
-    </main>
+
+            <div class="info-card">
+                <div class="datos">
+                    <h3>Nuestros Datos</h3>
+                    <p><i class="fas fa-phone"></i> +57 322 111 3331</p>
+                    <p><i class="fas fa-envelope"></i> streamingaccounts@gmail.com</p>
+                </div>
+                <div class="mapa">
+                    <h3>Ubicación</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6663840545343!2d-74.78323822590966!3d10.98853455524746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0025832995%3A0x6ee5ef55547f7da6!2sRiwi!5e0!3m2!1ses-419!2sco!4v1776132736088!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </div>
+
+        <div class="volver-container">
+            <a href="index.html" class="btn-volver">
+                <i class="fas fa-arrow-left"></i> VOLVER
+            </a>
+        </div>
+    </section>
 </body>
 </html>
