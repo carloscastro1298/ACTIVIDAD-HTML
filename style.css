@@ -105,7 +105,6 @@ h2 {
 }
 .card-hbo {
     width: 100%;
-    height: 100px;
     height: 1px;
     background-size: cover;
     background-position: center;
@@ -113,8 +112,7 @@ h2 {
 
 .card-amazon {
     width: 100%;
-    height: 150px;;
-    height: 1px;
+    height: 1px;;
     background-size: cover;;
     background-position: center;
 }
@@ -172,4 +170,9 @@ footer {
         width: 90%;
         padding: 1rem 5%;
     }
+}
+iframe {
+    margin: auto;
+    display: block;
+    position: relative;
 }
